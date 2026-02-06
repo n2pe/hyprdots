@@ -1,0 +1,58 @@
+/*    _     _        _                
+  ___(_) __| | ___  | |__   __ _ _ __ 
+ / __| |/ _` |/ _ \ | '_ \ / _` | '__|
+ \__ \ | (_| |  __/ | |_) | (_| | |   
+ |___/_|\__,_|\___| |_.__/ \__,_|_|   
+                                                                             
+originally created by https://github.com/JaKooLit */
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+
+"layer": "bottom",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "left",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 11,
+"margin-left": 10,
+"margin-right": 0,
+"margin-bottom": 11,
+
+/* modules */
+"modules-left": [
+	//"idle_inhibitor",
+	//"custom/separator#blank",
+        "custom/power",
+        "custom/separator#line",
+        "hyprland/workspaces#number",
+	],
+
+"modules-center": [
+	],
+
+"modules-right": [
+        //"mpris",
+        //"custom/separator#dot-line",
+        "power-profiles-daemon",
+        //"network",
+        //"custom/cava_mviz",
+        //"tray",
+        //"custom/separator#line",
+        "group/notify",
+        //"custom/separator#line",
+	//"battery",
+	//"custom/separator#blank",  
+	"group/audio",
+	"custom/separator#blank",
+	],
+}

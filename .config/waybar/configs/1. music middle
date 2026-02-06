@@ -1,0 +1,53 @@
+/*                    _      
+  _ __ ___  _   _ ___(_) ___ 
+ | '_ ` _ \| | | / __| |/ __|
+ | | | | | | |_| \__ \ | (__ 
+ |_| |_| |_|\__,_|___/_|\___|
+                             
+originally created by https://github.com/JaKooLit */
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+
+"layer": "bottom",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 7,
+"margin-left": 12,
+"margin-right": 12,
+"margin-bottom": -4,
+
+/* modules */
+"modules-left": [
+	"clock",
+        "custom/separator#line",	
+	//"tray",
+        "custom/separator#blank",	
+        "hyprland/workspaces#number",
+	],
+
+"modules-center": [
+        "mpris",
+	],
+
+"modules-right": [
+        "group/notify",	
+        //"network",
+	//"battery",
+	//"custom/separator#blank",  
+	"group/audio",
+        "custom/separator#line",
+	"custom/power",
+	],
+}

@@ -1,0 +1,54 @@
+/* @import url('https://raw.githubusercontent.com/scattagain/VencordStuff/4fa465629d6d71092c20aa11245abb6ad4a44641/css/GuildbarRevert.css'); */
+@import url('https://abbie.github.io/discord-css/import.css');
+
+:root {
+    --\\--compact-title-bar: false;
+    --\\--compact-input-box: false;
+    --\\--compact-context-menu: false;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: true;
+    --\\--compact-server-list: false;
+
+    --\\--hide-nameplates: true;
+    --\\--hide-guild-tags: false;
+    --\\--hide-profile-effects: false;
+    --\\--hide-avatar-decorations: false;
+    --\\--hide-gradient-glow-usernames: true;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: true;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: true;
+    --\\--hide-image-edit-button: true;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: true;
+    --\\--hide-gift-button: true;
+    --\\--hide-help-button: false;
+    --\\--hide-shop-button: false;
+    --\\--hide-nitro-button: true;
+    --\\--hide-active-now: true;
+    --\\--hide-nitro-upsells: true;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: false;
+    /* ^ hides quest, hypesquad, active dev, and discriminator badges */
+
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: true;
+    --\\--prevent-sidebar-resizing: false;
+    --\\--fix-minor-icon-misalignments: true;
+
+}
+
+/* make server icons circles 
+.visual-refresh {
+  .listItem__650eb {
+    .childWrapper__6e9f8,
+    .icon__6e9f8,
+    .icon_f34534,
+    .circleIconButton__5bc7e {
+      border-radius: 100% !important;
+    }
+  }
+} */

@@ -1,0 +1,24 @@
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "shutdown",  
+    "keybind" : "s"
+}
+{
+    "label" : "logout",
+    "action" : "loginctl kill-session $XDG_SESSION_ID",
+    "text" : "logout",
+    "keybind" : "e"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "suspend",
+    "keybind" : "u"
+}
+{
+    "label" : "Sleep",
+    "action" : "systemctl sleep",
+    "text" : "sleep" 
+    "keybind" : "h"
+}
