@@ -1,0 +1,13 @@
+{
+  "label": "matugen",
+  "light": {
+    "fg": "rgb(76, 79, 105)",
+    "bg": "rgb(239, 241, 245)",
+    "link": "rgb(30, 102, 245)"
+  },
+  "dark": {
+    "fg": "#bfc8cb",
+    "bg": "#0f1416",
+    "link": "#bec5eb"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#f1f1f1",
+          "style": "plain",
+          "template": "[{{.PromptCount}}]",
+          "type": "path"
+        }
+      ],
+      "type": "rprompt"
+    },
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#7eb5d0",
+          "style": "diamond",
+          "template": "{{.UserName}}",
+          "type": "session"
+        },
+        {
+          "foreground": "#f1f1f1",
+          "options": {
+            "folder_icon": "\uf115",
+            "folder_separator_icon": "/",
+            "max_depth": 2,
+            "style": "agnoster_short"
+          },
+          "style": "powerline",
+          "template": " 意 {{ .Path }}",
+          "type": "path"
+        },
+        {
+          "background": "#95ffa4",
+          "foreground": "#193549",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " {{ .HEAD }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments" :[
+        {
+          "foreground": "#2f5873",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#BF616A{{ end }}"
+          ],
+          "options": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "railgun ",
+          "type": "status"
+        },
+        {
+          "foreground": "#f1f1f1",
+          "style": "plain",
+          "template": "󰄰 :",
+          "type": "path"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "console_title_template": "{{if .Root}} \u26a1 {{end}}{{.UserName}} \u2794 📁{{.Folder}}",
+  "final_space": true,
+  "version": 4
+}
