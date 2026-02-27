@@ -4,6 +4,7 @@ a half decent looking rice for hyprland that uses matugen with some catppuccin <
 # showcase
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef4845d6-598a-4dce-95e8-fa9536bfbf51" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df38495c-40bf-4453-9eb3-2da184d275fb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e243dd91-c9d8-49b8-bb0b-1d594c4d1a04" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24fea0e3-a000-4c6d-880e-6f70742d7d16" />
 
 # things
