@@ -15,12 +15,9 @@ SELECTED_WALL=$(for a in $(ls -t *.jpg *.png *.gif *.jpeg 2>/dev/null); do echo 
 SELECTED_PATH="$WALLPAPER_DIR/$SELECTED_WALL"
 
 # === SET WALLPAPER ===
-# this is supposed to be with matugen but its currently broken
-# this also means system colours are somehwat broken
-matugen image "$SELECTED_PATH"
-swww img "$SELECTED_PATH" --transition-step 90 --transition-type any --transition-fps 144 
+matugen --source-color-index 0 image "$SELECTED_PATH"
+#swww img "$SELECTED_PATH" --transition-step 90 --transition-type any --transition-fps 144 
 
 # === CREATE SYMLINK ===
 mkdir -p "$(dirname "$SYMLINK_PATH")"
-ln -sf "$SELECTED_PATH" "$SYMLINK_PATH"
-
+ln -sf "$SELECTED_PATH" "$SYMLINK_PATH
